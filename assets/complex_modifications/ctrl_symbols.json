@@ -204,7 +204,7 @@
         },
         {
           "from": {
-            "key_code": "equals_sign",
+            "key_code": "equal_sign",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -216,7 +216,7 @@
           },
           "to": [
             {
-              "key_code": "equals_sign",
+              "key_code": "equal_sign",
               "modifiers": [
                 "left_command"
               ]
