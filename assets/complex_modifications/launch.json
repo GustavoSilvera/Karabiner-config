@@ -42,7 +42,7 @@
           "type": "basic"
         }
       ]
-    }, 
+    },
     {
       "description": "Super+V - launches a new VSCode window",
       "manipulators": [
