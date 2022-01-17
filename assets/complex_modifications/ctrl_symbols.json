@@ -1,0 +1,252 @@
+{
+	"title": "Cmd+{SYMBOL} -> Ctrl+{SYMBOL}",
+	"rules": [
+		{
+			"description": "Use CTRL instead of CMD (SYMBOLS)",
+			"manipulators": [
+				{
+					"from": {
+						"key_code": ",",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": ",",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": ".",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": ".",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "/",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "/",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": ";",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": ";",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "'",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "'",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "[",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "[",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "]",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "]",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "\\",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "\\",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "-",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "-",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "=",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "=",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+        {
+					"from": {
+						"key_code": "`",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "`",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					],
+					"type": "basic"
+				}
+			]
+		}
+	]
+}
