@@ -6,7 +6,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": ",",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -18,7 +18,7 @@
           },
           "to": [
             {
-              "key_code": ",",
+              "key_code": "comma",
               "modifiers": [
                 "left_command"
               ]
@@ -28,7 +28,7 @@
         },
         {
           "from": {
-            "key_code": ".",
+            "key_code": "period",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -40,7 +40,7 @@
           },
           "to": [
             {
-              "key_code": ".",
+              "key_code": "period",
               "modifiers": [
                 "left_command"
               ]
@@ -50,7 +50,7 @@
         },
         {
           "from": {
-            "key_code": "/",
+            "key_code": "slash",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -62,7 +62,7 @@
           },
           "to": [
             {
-              "key_code": "/",
+              "key_code": "slash",
               "modifiers": [
                 "left_command"
               ]
@@ -72,7 +72,7 @@
         },
         {
           "from": {
-            "key_code": ";",
+            "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -84,7 +84,7 @@
           },
           "to": [
             {
-              "key_code": ";",
+              "key_code": "semicolon",
               "modifiers": [
                 "left_command"
               ]
@@ -94,7 +94,7 @@
         },
         {
           "from": {
-            "key_code": "'",
+            "key_code": "quote",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -106,7 +106,7 @@
           },
           "to": [
             {
-              "key_code": "'",
+              "key_code": "quote",
               "modifiers": [
                 "left_command"
               ]
@@ -116,7 +116,7 @@
         },
         {
           "from": {
-            "key_code": "[",
+            "key_code": "open_bracket",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -128,7 +128,7 @@
           },
           "to": [
             {
-              "key_code": "[",
+              "key_code": "open_bracket",
               "modifiers": [
                 "left_command"
               ]
@@ -138,7 +138,7 @@
         },
         {
           "from": {
-            "key_code": "]",
+            "key_code": "close_bracket",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -150,7 +150,7 @@
           },
           "to": [
             {
-              "key_code": "]",
+              "key_code": "close_bracket",
               "modifiers": [
                 "left_command"
               ]
@@ -160,7 +160,7 @@
         },
         {
           "from": {
-            "key_code": "\\",
+            "key_code": "backslash",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -172,7 +172,7 @@
           },
           "to": [
             {
-              "key_code": "\\",
+              "key_code": "backslash",
               "modifiers": [
                 "left_command"
               ]
@@ -182,7 +182,7 @@
         },
         {
           "from": {
-            "key_code": "-",
+            "key_code": "hyphen",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -194,7 +194,7 @@
           },
           "to": [
             {
-              "key_code": "-",
+              "key_code": "hyphen",
               "modifiers": [
                 "left_command"
               ]
@@ -204,7 +204,7 @@
         },
         {
           "from": {
-            "key_code": "=",
+            "key_code": "equals_sign",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -216,7 +216,7 @@
           },
           "to": [
             {
-              "key_code": "=",
+              "key_code": "equals_sign",
               "modifiers": [
                 "left_command"
               ]
@@ -226,7 +226,7 @@
         },
         {
           "from": {
-            "key_code": "`",
+            "key_code": "grave_accent_and_tilde",
             "modifiers": {
               "mandatory": [
                 "left_control"
@@ -238,7 +238,7 @@
           },
           "to": [
             {
-              "key_code": "`",
+              "key_code": "grave_accent_and_tilde",
               "modifiers": [
                 "left_command"
               ]
