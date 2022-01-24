@@ -1642,6 +1642,27 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Super+W - Quit applicatilon",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "/bin/bash ~/.config/karabiner/scripts/close_window.sh"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
