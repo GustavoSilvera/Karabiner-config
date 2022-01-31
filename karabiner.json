@@ -1636,7 +1636,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "osascript -e 'tell app \"Visual Studio Code\"' -e 'make new window' -e activate -e end"
+                                        "shell_command": "/usr/local/bin/code --new-window"
                                     }
                                 ],
                                 "type": "basic"
