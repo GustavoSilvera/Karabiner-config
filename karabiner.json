@@ -51,6 +51,33 @@
                         ]
                     },
                     {
+                        "description": "Ctrl + Super + Shift + S => Sleep",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_option",
+                                            "left_control",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "software_function": {
+                                            "iokit_power_management_sleep_system": {
+                                                "delay_milliseconds": 50
+                                            }
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Alt + i/j/k/l => Arrows",
                         "manipulators": [
                             {
