@@ -660,6 +660,19 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
+              ],
+              "type": "frontmost_application_unless"
+            }
+          ],
           "from": {
             "key_code": "s",
             "modifiers": {
@@ -806,6 +819,19 @@
           "type": "basic"
         },
         {
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.apple\\.Terminal$",
+                "^com\\.googlecode\\.iterm2$",
+                "^co\\.zeit\\.hyperterm$",
+                "^co\\.zeit\\.hyper$",
+                "^io\\.alacritty$",
+                "^net\\.kovidgoyal\\.kitty$"
+              ],
+              "type": "frontmost_application_unless"
+            }
+          ],
           "from": {
             "key_code": "x",
             "modifiers": {
